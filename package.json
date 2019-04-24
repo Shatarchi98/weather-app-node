@@ -1,6 +1,9 @@
 {
   "name": "weather app",
   "version": "",
+  "scripts": {
+    "start": "node app"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.0.3",
