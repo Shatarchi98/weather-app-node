@@ -1,6 +1,6 @@
 {
   "name": "myweatherapp69",
-  "version": "1.0",
+  "version": "",
   "scripts": {
     "start": "node app.js"
   },
