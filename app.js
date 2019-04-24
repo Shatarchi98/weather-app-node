@@ -10,7 +10,7 @@ app.set('view engine', 'hbs');
 app.get('/', (req, res)=>{
     res.render("home.hbs");
 });
-app.listen(port, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Listening on port: ", port);
 });
 
